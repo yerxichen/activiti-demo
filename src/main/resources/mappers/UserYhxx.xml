@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sjq.ntnbzhfk.mapper.UserYhxxMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sjq.ntnbzhfk.entity.UserYhxx">
+        <result column="ID" property="id" />
+        <result column="XM" property="xm" />
+        <result column="LXDH" property="lxdh" />
+        <result column="SSDWBM" property="ssdwbm" />
+        <result column="SSDWMC" property="ssdwmc" />
+        <result column="SJDWBM" property="sjdwbm" />
+        <result column="SJDWMC" property="sjdwmc" />
+        <result column="ZCSJ" property="zcsj" />
+        <result column="ZXSJ" property="zxsj" />
+        <result column="ZXBS" property="zxbs" />
+        <result column="GL_ID" property="glId" />
+        <result column="YHZT" property="yhzt" />
+        <result column="OPENID" property="openid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, XM, LXDH, SSDWBM, SSDWMC, SJDWBM, SJDWMC, ZCSJ, ZXSJ, ZXBS, GL_ID, YHZT, OPENID
+    </sql>
+
+</mapper>
